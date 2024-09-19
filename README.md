@@ -13,7 +13,7 @@
 ## Download Repository
 
 ```
-https://github.com/gmgowrish/Machine_predictive_maintenance.git
+git clone https://github.com/gmgowrish/Machine_predictive_maintenance.git
 ```
 
 ## Change directory
