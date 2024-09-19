@@ -13,13 +13,13 @@
 ## Download Repository
 
 ```
-git clone https://github.com/Adhiban1/Machine-Predictive-Maintenance.git
+https://github.com/gmgowrish/Machine_predictive_maintenance.git
 ```
 
 ## Change directory
 
 ```
-cd Machine-Predictive-Maintenance
+cd Machine_predictive_maintenance
 ```
 
 ## Create virtual environment
