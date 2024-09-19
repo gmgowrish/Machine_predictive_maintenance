@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Predictive Maintenance</title>
+</head>
+<body>
+    <button onclick="theme()" id="theme" class="btn" style="width: 150px; border: none;">Dark mode</button>
+    <center>
+        <div id="main_div">
+            <h1>Machine Predictive Maintenance</h1>
+            <h2>Upload a csv file with these columns:</h2>
+            <div style="text-align: left; width: 300px;">
+                <ul>
+                    <li>Type</li>
+                    <li>Air temperature [K]</li>
+                    <li>Process temperature [K]</li>
+                    <li>Rotational speed [rpm]</li>
+                    <li>Torque [Nm]</li>
+                    <li>Tool wear [min]</li>
+                </ul>
+            </div>
+            <form action="/" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+                <input type="file" name="file" id="file" class="btn">
+                <input type="submit" id="submit" class="btn">
+            </form>
+            <div />
+    </center>
+    <script src="static/index.js"></script>
+</body>
+</html>
